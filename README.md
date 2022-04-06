@@ -21,3 +21,6 @@ install.sh installs:
 * helm
 * k9s
 * tmux
+
+## Windows
+lol
