@@ -1,5 +1,12 @@
 #!/bin/bash
 
+read -p "This will install a LOT of stuff. Are you sure?" -n 1 -r
+echo "\n" # (optional) move to a new line
+if [[ $REPLY =~ ^[nN]$ ]]
+then
+    exit
+fi
+
 # General
 ## Firefox
 sudo snap install firefox
@@ -34,3 +41,6 @@ wget https://github.com/derailed/k9s/releases/download/v0.25.18/k9s_Linux_x86_64
 tar -xvf k9s_Linux_x86_64.tar.gz
 sudo mv k9s /usr/local/bin
 rm -rf LICENSE README.md k9s_Linux_x86_64.tar.gz
+## dive
+wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb
+sudo apt install ./dive_0.9.2_linux_amd64.deb
