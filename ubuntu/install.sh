@@ -29,3 +29,6 @@ sudo snap install firefox
 
 # VScode
 sudo snap install code --classic
+
+# Postman
+sudo snap install postman
