@@ -18,3 +18,7 @@ brew install kubectl
 brew install helm
 brew install derailed/k9s/k9s
 brew install dive
+
+# Terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
