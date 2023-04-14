@@ -22,3 +22,9 @@ brew install dive
 # Terraform
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
+
+# Rectangle
+brew install --cask rectangle
+
+# yamllint
+brew install yamllint

@@ -17,10 +17,17 @@ install.sh installs:
 
 install.sh installs:
 
+* firefox
+* vscode
+* postman
+* tmux
 * kubectl
 * helm
 * k9s
-* tmux
+* dive
+* terraform
+* rectangle
+* yamllint
 
 ## Windows
 
