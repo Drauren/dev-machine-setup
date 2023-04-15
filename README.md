@@ -2,16 +2,17 @@
 
 ## Ubuntu
 
-### install.sh
-
 install.sh installs:
 
+* firefox
+* vscode
+* postman
+* tmux
 * kubectl
 * helm
 * k9s
-* tmux
-* firefox
-* vscode
+* dive
+* terraform
 
 ## MacOS
 
